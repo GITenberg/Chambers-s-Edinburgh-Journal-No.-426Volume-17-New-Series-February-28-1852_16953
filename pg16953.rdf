@@ -2,259 +2,255 @@
 <rdf:RDF xml:base="http://www.gutenberg.org/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/16953">
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/16953/16953.zip">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57279</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4d226138ae8f4c44996d8b4e1b500fb1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7aa075e32238470286b37a87dd851e74">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-27T09:25:20</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/5276">
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Robert_Chambers_%28publisher_born_1802%29"/>
+        <pgterms:name>Chambers, Robert</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1802</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1871</pgterms:deathdate>
+        <pgterms:alias>Chambers, R. (Robert)</pgterms:alias>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.kindle.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T01:12:30.516654</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341289</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6385859ebab948a282144f9a8f414398">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nf4919f6757a848679723a047585a70cc">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Chambers's Edinburgh Journal</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N9d0149460f6e4491afddf4562d11200e">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">274047</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T01:12:31.052642</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4470a67200d34b3db72be33d4c3f689a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ne60e23fd85ab447284376ac024f5348e">
+        <rdf:value>Periodicals</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/116">
         <pgterms:alias>Verschillende</pgterms:alias>
         <pgterms:name>Various</pgterms:name>
       </pgterms:agent>
     </dcterms:creator>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</pgterms:downloads>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/16953/16953.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/16953/16953-8.zip">
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-27T09:25:20</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57279</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nafe662f48d3b4c4c957c02e0ccab5d57">
+          <rdf:Description rdf:nodeID="N3fba794da5e14aa0868045710656464e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na63f0a6a6ea44074a5ef0b3f42123403">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na688afb0f5c74b1aae8639d074d03ba4">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57325</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.epub.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T01:18:42.109342</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.epub.noimages">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N784564062dc74b9ea487fdb1f767a0e7">
+          <rdf:Description rdf:nodeID="N72d17f59590f4546939a4427ca46fc7e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114676</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/5276">
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Robert_Chambers"/>
-        <pgterms:name>Chambers, Robert</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1871</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1802</pgterms:birthdate>
-        <pgterms:alias>Chambers, R. (Robert)</pgterms:alias>
-      </pgterms:agent>
-    </marcrel:edt>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N9ec253aa36ea4411a1a5a9afab45743f">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/16953/16953.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143607</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-27T09:25:20</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4cc4e872d7284050a90d787f71424adc">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65067</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T01:12:29.899661</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/16953/16953-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-27T09:25:20</dcterms:modified>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143611</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N15f07c7df83b41f5b4dbf63fae00f7a7">
+          <rdf:Description rdf:nodeID="N97eb422f4703427a91137c5ba5d47b55">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N58e7d7acef8446c38e76c1b6d93dafba">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14491</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:12:47.221586</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135612</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/16953/16953.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143607</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-27T09:25:20</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T01:18:43.742720</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N549806ec39284b96813049009dea5109">
+          <rdf:Description rdf:nodeID="N8e6a432cbe774516ab64b4744425390b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.qioo">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N32b741b4e071463e8dea639f9aadd297">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119244</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T19:14:25.665401</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</pgterms:downloads>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/16953/16953-h.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98884</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-27T09:25:20</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nac957221ca8b45c2ab3ddc9bb25356e4">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N09aa5b231a604588903c8821a1d84dd5">
+          <rdf:Description rdf:nodeID="N0ab28be0888047caa46aaaf0b40369b6">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.plucker">
         <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83508</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-18T19:14:27.133927</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-27T09:25:20</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98884</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9e21f1f2ab86441a98e9e09ce2bcf4c0">
+          <rdf:Description rdf:nodeID="N5e6ee6015b844e12810414064bf7af5b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-10-27</dcterms:issued>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/5277">
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/William_Chambers_%28publisher%29"/>
-        <pgterms:name>Chambers, William</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</pgterms:birthdate>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1883</pgterms:deathdate>
-        <pgterms:alias>Chambers, W. (William)</pgterms:alias>
-      </pgterms:agent>
-    </marcrel:edt>
-    <dcterms:title>Chambers's Edinburgh Journal, No. 426
-Volume 17, New Series, February 28, 1852</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77251</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T01:18:41.539907</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9a3b293258914ae9923dd25b36561591">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N5c8bd8990ad54cebb149c2843f34bae0">
+      <rdf:Description rdf:nodeID="N9bedd8b3c87042bdafc07a7dda0e2f81">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115228</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7f98ff7845db49a08b13a76cce8450c5">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T01:18:42.903536</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N34deac8c7d6145249f0670a746a4f6d3">
-        <rdf:value>AP</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N65a2245d15a04508911f1777d5efd0be">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Periodicals</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/16953/16953-h/16953-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154427</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154427</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-27T09:25:20</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbbd3527c1bde4752bb7790fb6eae1fb1">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+          <rdf:Description rdf:nodeID="N86ddb55dc385429e9ca1116d60262966">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-27T09:25:20</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/5277">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1883</pgterms:deathdate>
+        <pgterms:alias>Chambers, W. (William)</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1800</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/William_Chambers_%28publisher%29"/>
+        <pgterms:name>Chambers, William</pgterms:name>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nb06bcab7a409468ead0fadb26aca0504">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>AP</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143602</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T01:18:40.340105</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143606</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T01:12:29.426680</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N1b330ba36a3444ec8455fa3f4efd691d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N80db942b2d374bbf92440bc9304b2bb2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-10-27</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/16953/16953-8.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2005-10-27T09:25:20</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/16953.epub.images">
         <dcterms:isFormatOf rdf:resource="ebooks/16953"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57325</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103969</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-09T01:12:29.703661</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb3e7e6f2a0e34a4b828d5680e30cc871">
+          <rdf:Description rdf:nodeID="Nae9904f47d3e479393c55f73e213789d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1302479146334179b454586368d4bdbc">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:title>Chambers's Edinburgh Journal, No. 426
+Volume 17, New Series, February 28, 1852</dcterms:title>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Robert_Chambers">
-    <dcterms:description>Wikipedia</dcterms:description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Robert_Chambers_%28publisher_born_1802%29">
+    <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/William_Chambers_%28publisher%29">
     <dcterms:description>Wikipedia</dcterms:description>
